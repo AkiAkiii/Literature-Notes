@@ -25,6 +25,10 @@ Y is categorical, which is the primary outcome was post-operative AKI, defined a
 
 ## super learner 
 
+- a prediction model using super learner
+
+- TMLE
+
 
 # Notes
 1. Difference between 'causal inference' and 'prediction modeling'
