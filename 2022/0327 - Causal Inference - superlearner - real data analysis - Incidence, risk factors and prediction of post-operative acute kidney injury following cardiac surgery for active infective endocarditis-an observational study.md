@@ -31,4 +31,6 @@ Y is categorical, which is the primary outcome was post-operative AKI, defined a
 
 
 # Notes
-1. Difference between 'causal inference' and 'prediction modeling'
+1. Details about TMLE
+
+does TMLE always use logistic regression to update the estimate?
