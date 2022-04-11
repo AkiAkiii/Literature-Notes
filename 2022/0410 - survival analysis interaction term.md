@@ -38,6 +38,12 @@ the main findings of no significant interactions'
 
 # Methods (statistical analysis)
 
+![image](https://user-images.githubusercontent.com/90790297/162650312-d6b5f4c7-86bc-4790-a457-b30008cb1118.png)
+
+![image](https://user-images.githubusercontent.com/90790297/162650323-6aec9f3c-51be-4eec-96a3-3503398db1d7.png)
+
+
+
 # Notes:
 
 1. these words often means same thing
