@@ -16,7 +16,8 @@ interaction; Type 2 diabetes
 # Intro
 
 To demonstrate the adverse impact of ignoring statistical interactions in regression
-models used in epidemiologic studies.
+models used in epidemiologic studies. Specifically, we
+studied the effect of ignoring interactions in a Cox proportional hazards regression model.
 
 Using simulation and one real life data.
 
