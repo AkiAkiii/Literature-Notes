@@ -1,12 +1,19 @@
 # Overview
 
+## Goal
+
+developing methods for for phylogenetic inference using continuous trait data (can we understand it as a classification problem?)
+
 ## Method Mechanism
 
 The approximation works by first computing the maximum likelihood estimates of some internal branch lengths, and then inferring the tree-topology using these estimates
 
 ## Fill in gap: 
-more computationally efficient than existing methods for such data while still achieving comparable accuracy
+1. more computationally efficient than existing methods for such data while still achieving comparable accuracy
 
+2. Though distance and parsimony methods are computationally fast, they can *produce incorrect estimates of the topology* when **the rates of 
+evolution are unequal across lineages**, even with an infinite number of 
+sites
 ## Innovation:
 use of the mathematical properties of tree-topologies for inference, and thus serves as a useful addition to the collection of methods available for estimating phylogenies from continuous trait data. 
 
@@ -18,6 +25,8 @@ use of the mathematical properties of tree-topologies for inference, and thus se
 # Methods
 
 ## 2.1 The Brownian motion model for continuous trait evolution 
+
+ref reading: https://lukejharmon.github.io/pcm/chapter3_bmintro/#:~:text=We%20can%20use%20Brownian%20motion,distance%2C%20over%20any%20time%20interval
 
 ## 2.2 Root distances
 
@@ -54,7 +63,20 @@ a random vector is said to be k-variate normally distributed if every linear com
 
 ## 6. What is taxa?
 
+## 7. What is 'locus'?
 
+A locus, as related to genomics, is a physical site or location within a genome (such as a gene or another DNA segment of interest), somewhat like a street address. The plural of locus is loci. （https://www.genome.gov/genetics-glossary/Locus ）
 
+## 8. tips of the tree
+
+the end of the tree
+
+https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meaning-of-41956/
+
+![image](https://user-images.githubusercontent.com/90790297/177446453-ca0a502a-ae4b-4aa6-809d-a9709e94d798.png)
+
+![image](https://user-images.githubusercontent.com/90790297/177446539-901184ba-4cd7-4880-9910-aab5b02fa9b9.png)
+
+![image](https://user-images.githubusercontent.com/90790297/177446740-1e1c3126-cbdf-4bbb-a584-5186a54da1d7.png)
 
 
