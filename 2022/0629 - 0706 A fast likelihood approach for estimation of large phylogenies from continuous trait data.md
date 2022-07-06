@@ -10,6 +10,10 @@ more computationally efficient than existing methods for such data while still a
 ## Innovation:
 use of the mathematical properties of tree-topologies for inference, and thus serves as a useful addition to the collection of methods available for estimating phylogenies from continuous trait data. 
 
+## Background
+
+- Inference of phylogenies from genetic data
+
 
 # Methods
 
@@ -19,6 +23,16 @@ use of the mathematical properties of tree-topologies for inference, and thus se
 
 
 # Defination
+
+## 0. what is 'phylogenies'?
+
+Phylogenies are important for studying the relationships among taxa of interest, thus providing insight into the historical processes that have contributed to their evolution.
+
+## How are taxa related to each other?
+
+Terminal taxa are connected by branches. The branches are the line segments that make up the tree. Branches come together at branching points called nodes. Each nodes represents a common ancestor shared by two or more terminal taxa.
+
+Recommand reading to learn more background knowledge: Reading Trees  https://www.digitalatlasofancientlife.org/learn/systematics/phylogenetics/reading-trees/#:~:text=Terminal%20taxa%20are%20connected%20by,two%20or%20more%20terminal%20taxa.
 
 ## 1. what is 'continuous trait data'?
 
@@ -39,6 +53,8 @@ a random vector is said to be k-variate normally distributed if every linear com
 ## 5. What is 'most recent common ancestor (MRCA)' ?
 
 ## 6. What is taxa?
+
+
 
 
 
