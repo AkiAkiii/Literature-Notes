@@ -52,6 +52,35 @@ In details, the method estimate the covariance matrix of the Brownian motion mod
 R is a PxP matrix with RD_x,y as its elements. the covariance matrix of the Brownian motion model = R
 
 
+## 2.3 Root Distance Method (RDM) 
+
+### Step 1:  Estimating the differences ΔRDx:y,z
+
+MLE of covariance matrix in (2.1) from the allele frequency data
+
+MLE of ΔRDx:y,z :  ̂ ΔRDx:y,z
+
+### Step 2: Determining the ̂ ΔRDx:y,z values closest to zero
+
+set the lowest H of the observed Δ̂RDk:i,j to 0 for each triplet, and these are used as input to Step 3
+
+### Step 3: Identifying the splits from zero-valued Δ̂RD.
+
+By comparing the taxa involved in splits identified by zero-valued ΔRD, one can identify splits that are equivalent. Once all 
+equivalencies are determined, a set of distinct splits is identified. 
+
+result: reduced set G (the set of all distinct splits)
+
+add any missing two-taxon splits to G 
+
+### Step 4: Estimating the tree-topology from the splits
+
+#### What is this step doing?
+
+assemble the split set G into a resolved binary tree
+
+#### transform G into a split indicator matrix
+
 # Defination
 
 ## 0. what is 'phylogenies'?
