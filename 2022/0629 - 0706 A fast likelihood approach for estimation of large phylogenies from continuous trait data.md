@@ -81,6 +81,18 @@ assemble the split set G into a resolved binary tree
 
 #### transform G into a split indicator matrix
 
+## 2.4 simulation
+
+1. `rtree()` simulate an unrooted tree
+
+2. compute the R matrix by calculating the root distances (defination see 2.2)
+
+3. simulate allele frequencies r based on Brownian Motion model.
+
+4. Estimate the tree from (3) simulated data using RDM.
+
+5. repeat 1-4
+
 # Defination
 
 ## 0. what is 'phylogenies'?
