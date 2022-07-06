@@ -76,6 +76,8 @@ https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meanin
 ![image](https://user-images.githubusercontent.com/90790297/177446453-ca0a502a-ae4b-4aa6-809d-a9709e94d798.png)
 
 ![image](https://user-images.githubusercontent.com/90790297/177446539-901184ba-4cd7-4880-9910-aab5b02fa9b9.png)
+![image](https://user-images.githubusercontent.com/90790297/177447148-faf308c0-a2b0-42d7-8aa8-e359a60a3a72.png)
+
 
 ![image](https://user-images.githubusercontent.com/90790297/177446740-1e1c3126-cbdf-4bbb-a584-5186a54da1d7.png)
 
