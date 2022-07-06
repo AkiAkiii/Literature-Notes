@@ -28,7 +28,28 @@ use of the mathematical properties of tree-topologies for inference, and thus se
 
 ref reading: https://lukejharmon.github.io/pcm/chapter3_bmintro/#:~:text=We%20can%20use%20Brownian%20motion,distance%2C%20over%20any%20time%20interval
 
+### What is this model doing? 
+--> transformation of the observed values of the continuous traits so that the trandsformed values are about normal.
+
+### Common transformation function g: 
+
+a) angular transformation. (remove inhomogeneity of the variance, generally performs well when gene frequencies are not extreme)
+
+b) logistic transformation
+
+### what is the optimal tree?
+
+The tree that maximizes the likelihood based on the normal distribution above
+
 ## 2.2 Root distances
+
+### What is part doing? 
+
+use a property of a tree-topology that it is completely characterized by what we call the root distances, defined as follows. (for the proposed approximate likelihood method to infer phylogenies)
+
+In details, the method estimate the covariance matrix of the Brownian motion model in `2.1`. That is:
+
+R is a PxP matrix with RD_x,y as its elements. the covariance matrix of the Brownian motion model = R
 
 
 # Defination
@@ -75,10 +96,20 @@ https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meanin
 
 ![image](https://user-images.githubusercontent.com/90790297/177446453-ca0a502a-ae4b-4aa6-809d-a9709e94d798.png)
 
-![image](https://user-images.githubusercontent.com/90790297/177446539-901184ba-4cd7-4880-9910-aab5b02fa9b9.png)
+
 ![image](https://user-images.githubusercontent.com/90790297/177447148-faf308c0-a2b0-42d7-8aa8-e359a60a3a72.png)
 
+![image](https://user-images.githubusercontent.com/90790297/177447449-d6a340e7-2088-4a27-b21b-c451c67bc773.png)
+
+Regardless of their rank, the taxa depicted in a phylogenetic tree are often called terminal taxa, because they occur at the tips of the tree. They are sometimes referred to as "terminals" or "leaves."
 
 ![image](https://user-images.githubusercontent.com/90790297/177446740-1e1c3126-cbdf-4bbb-a584-5186a54da1d7.png)
+
+## 9. What is tree-topology?
+
+## 10. What is outgroup?
+
+
+
 
 
